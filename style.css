@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 50px rgb(153, 151, 151);
+    border-radius: 10px;
+}
+
+.material {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    margin: 10px 10px;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#ipt {
+    height: 40px;
+    border: none;
+    background-color: beige;
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#btn {
+    height: 40px;
+    border: none;
+    background-color: skyblue;
+    width: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.res {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+#res{
+    margin-top: 20px;
+    width: 80%;
+}
+
+#res p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    order: 1;
+    gap: 20px;
+}
+
+#res button{
+    height: 25px;
+    width: 70px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 10px 5px gray;
+    order: 2;
+}
+
+#txt{
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    #ipt{
+        height: 30px;
+        width: 350px;
+    }
+    #btn{
+        height: 30px;
+        width: 60px;
+    }
+    #head{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:900px) {
+    
+    #ipt{
+        height: 25px;
+        width: 275px;
+    }
+    #btn{
+        height: 25px;
+        width: 50px;
+    }
+    #head{
+        font-size: 40px;
+    }
+    .box{
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px) {
+    #ipt{
+        height: 25px;
+        width: 230px;
+    }
+    #btn{
+        height: 20px;
+        width: 50px;
+    }
+    #head{
+        font-size: 35px;
+    }
+    .box{
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    #head{
+        font-size: 30px;
+    }
+    #ipt{
+        height: 25px;
+        width: 160px;
+    }
+}
